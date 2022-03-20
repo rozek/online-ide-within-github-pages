@@ -13,6 +13,7 @@ Die "offizielle" (und damit vermutlich dauerhaft unterstützte) Abhilfe ist der 
 Hier können Sie sehen, wie das Ergebnis am Ende aussieht:
   
 <iframe src="Template.html" style="width:620px; height:480px; overflow:hidden"></iframe>
+
   
 Sollten Sie sich gerade die README-Datei in desem Repository ansehen, werden Sie nur einen Text der Form
   
