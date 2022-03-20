@@ -8,6 +8,8 @@ Möchte man auf Basis der "Embedded-IDE" eigene Beispiele oder gar einen eigenen
 
 Die "offizielle" (und damit vermutlich dauerhaft unterstützte) Abhilfe ist der Umstieg auf [GitHub Pages](https://pages.github.com/). Zwar werden derartige Seiten ebenfalls aus Markdown-Dateien gespeist, allerdings findet zunächst eine Konvertierung nach HTML statt, die u.a. auch &lt;iframe&gt;-Elemente zulässt - und genau auf solchen &lt;iframe&gt;-Elementen basiert diese Anleitung.
 
+> Nota bene: dieser Beitrag befindet sich gerade in Arbeit und wird vermutlich nicht vor Ende März 2022 fertig sein
+
 ## Beispiel ##
   
 Hier können Sie sehen, wie das Ergebnis am Ende aussieht:
