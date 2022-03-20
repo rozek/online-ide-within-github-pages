@@ -6,8 +6,23 @@ Eine etwas abgespeckte Variante der Online-IDE kann als [Embedded-IDE](https://g
 
 Möchte man auf Basis der "Embedded-IDE" eigene Beispiele oder gar einen eigenen Kurs auf GitHub veröffentlichen, stößt man jedoch bald auf ein grundsätzliches Problem: eine Reihe von HTML-Tags (wie z.B. <script> oder <iframe>) werden in Markdown-Dateien (wie z.B. README.md) nicht unterstützt und stattdessen wie normaler Text behandelt.
 
-Die "offizielle" (und damit vermutlich dauerhaft unterstützte) Abhilfe ist der Umstieg auf [GitHub Pages](https://pages.github.com/). Zwar werden derartige Seiten ebenfalls aus Markdown-Dateien gespeist, allerdings findet zunächst eine Konvertierung nach HTML statt, die u.a. auch <iframe>-Elemente zulässt.
+Die "offizielle" (und damit vermutlich dauerhaft unterstützte) Abhilfe ist der Umstieg auf [GitHub Pages](https://pages.github.com/). Zwar werden derartige Seiten ebenfalls aus Markdown-Dateien gespeist, allerdings findet zunächst eine Konvertierung nach HTML statt, die u.a. auch <iframe>-Elemente zulässt - und genau auf solchen <iframe>-Elementen basiert diese Anleitung.
 
-wie man die Online-IDE in GitHub Pages integriert
-
+## Beispiel ##
+  
+Hier können Sie sehen, wie das Ergebnis am Ende aussieht:
+  
 <iframe src="Template.html" style="width:620px; height:480px; overflow:hidden"></iframe>
+  
+Sollten Sie sich gerade die README-Datei in desem Repository ansehen, werden Sie nur einen Text der Form
+  
+```
+<iframe src="Template.html" style="width:620px; height:480px; overflow:hidden"></iframe>
+```
+  
+vorfinden - in diesem Fall wechseln Sie bitte auf die [zugehörige GitHub Page](https://rozek.github.io/online-ide-within-github-pages/), dort werden Sie die tatsächliche "Embedded-IDE" sehen und auch mit ihr arbeiten können.
+  
+## Integration in eigene Repositories ##
+  
+
+
