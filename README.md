@@ -23,6 +23,20 @@ Sollten Sie sich gerade die README-Datei in desem Repository ansehen, werden Sie
 vorfinden - in diesem Fall wechseln Sie bitte auf die [zugehörige GitHub Page](https://rozek.github.io/online-ide-within-github-pages/), dort werden Sie die tatsächliche "Embedded-IDE" sehen und auch mit ihr arbeiten können.
   
 ## Integration in eigene Repositories ##
-  
+
+### IDE mit leerem Workspace ###
+
+* `empty-Workspace.html` aus diesem Repo in das eigenen Repository kopieren (und ggfs. umbenennen
+* ggfs. Größe in `empty-Workspace.html` anpassen
+* folgende Zeile in Markdown-Datei einfügen<br>`<iframe src="empty-Workspace.html" style="width:620px; height:480px; overflow:hidden"></iframe>`
+
+ggfs. Größenangaben darin anpassen
+
+### IDE mit vorgefertigtem Beispiel ###
+
+1 `predefined-workspace.html` kopieren
 
 
+## License ##
+
+[MIT License](LICENSE.md)
