@@ -1,5 +1,5 @@
-(16)
+(17)
 
 wie man die Online-IDE in GitHub Pages integriert
 
-<iframe src="Template.html" style="width:600px; height:400px"></iframe>
+<iframe src="Template.html" style="width:612px; height:440px"></iframe>
