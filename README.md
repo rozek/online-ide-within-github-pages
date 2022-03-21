@@ -40,7 +40,7 @@ Und so bauen Sie eine leere IDE in Ihre GitHub Page ein:
 2. mit einem Texteditor (oder der Online-Oberfläche von GitHub) sollten Sie außerdem folgende Details anpassen:
     * die `id` im Attribut `data-java-online` sollte auf einen Wert gesetzt werden, der ggfs. sogar dateiübergreifend (nämlich Ihre gesamte GitHub-"Domäne") eineindeutig ist, damit evtl. im Browser gespeicherte Quelltexte nicht mit denen auf anderen GitHub Pages kollidieren
     * zusätzlich können Sie das Aussehen der "embedded IDE" durch weitere Eintragungen im Attribut `data-java-online` an Ihre Bedürfnisse anpassen (eine [Anleitung](https://github.com/martin-pabst/Online-IDE#das-attribut-data-java-online) dafür finden Sie im GitHub Repository der Online-IDE selbst)
-3. die derart konfigurierte "embedded IDE" kann nun mithilfe der folgenden Direktive in die GitHub Page aufgenommen werden:<br>&nbsp;<br>`<iframe src="empty_Workspace.html" style="width:620px; height:480px; overflow:hidden"></iframe>`<br>&nbsp;<br>Falls Sie die HTML-Datei nach dem Kopieren umbenannt (oder in einem Unterverzeichnis abgelegt) haben, müssen Sie anstelle von "empty_Workspace.html" natürlich den (relativen) Pfadnamen der von Ihnen angelegten Datei eintragen.
+3. die derart konfigurierte "embedded IDE" kann nun mithilfe der folgenden Direktive in die GitHub Page aufgenommen werden:<br>&nbsp;<br>`<iframe src="empty_Workspace.html" style="width:600px; height:400px; overflow:hidden"></iframe>`<br>&nbsp;<br>Falls Sie die HTML-Datei nach dem Kopieren umbenannt (oder in einem Unterverzeichnis abgelegt) haben, müssen Sie anstelle von "empty_Workspace.html" natürlich den (relativen) Pfadnamen der von Ihnen angelegten Datei eintragen. Auch die Größe des `<iframe>` können Sie an Ihre Bedürfnisse anpassen - der Inhalt passt sich entsprechend an.
 
 Das Ergebnis kann dann z.B. wie folgt aussehen:
 
@@ -52,11 +52,12 @@ Auch hier gilt wieder: Sie müssen sich auf der [GitHub Page](https://rozek.gith
 
 Wie zuvor schon erwähnt, kann eine "embedded IDE" jedoch auch mit bereits vorgefertigten Dateien ausgestattet werden, damit Benutzer nicht immer bei Null anfangen müssen. Der [predefined_Workspace](predefined_Workspace.html) ist ein Beispiel dafür und kann wie folgt in eine GitHub Page integriert werden:
 
-1 `predefined_Workspace.html` kopieren
-
-
-[Dokumentation zur Online-IDE](https://github.com/rozek/Online-IDE#beispiel-mit-dateiliste-console-fehlerliste-und-tipp)
-
+1. kopieren Sie die Datei [predefined_Workspace](predefined_Workspace.html) aus diesem Repository z.B. in das Hauptverzeichnis Ihres eigenen Repo - den Dateinamen können Sie dabei nach Belieben ändern
+2. mit einem Texteditor (oder der Online-Oberfläche von GitHub) sollten Sie außerdem folgende Details anpassen:
+    * die `id` im Attribut `data-java-online` sollte auf einen Wert gesetzt werden, der ggfs. sogar dateiübergreifend (nämlich Ihre gesamte GitHub-"Domäne") eineindeutig ist, damit evtl. im Browser gespeicherte Quelltexte nicht mit denen auf anderen GitHub Pages kollidieren
+    * die vorgefertigten Dateien können Sie als `<script>`-Elemente innerhalb der IDE anlegen - die [Dokumentation zur Online-IDE](https://github.com/rozek/Online-IDE#beispiel-mit-dateiliste-console-fehlerliste-und-tipp) enthält Beispiele hierfür
+    * zusätzlich können Sie das Aussehen der "embedded IDE" durch weitere Eintragungen im Attribut `data-java-online` an Ihre Bedürfnisse anpassen (eine [Anleitung](https://github.com/martin-pabst/Online-IDE#das-attribut-data-java-online) dafür finden Sie im GitHub Repository der Online-IDE selbst)
+3. die derart konfigurierte "embedded IDE" kann nun mithilfe der folgenden Direktive in die GitHub Page aufgenommen werden:<br>&nbsp;<br>`<iframe src="predefined_Workspace.html" style="width:600px; height:400px; overflow:hidden"></iframe>`<br>&nbsp;<br>Falls Sie die HTML-Datei nach dem Kopieren umbenannt (oder in einem Unterverzeichnis abgelegt) haben, müssen Sie anstelle von "predefined_Workspace.html" natürlich den (relativen) Pfadnamen der von Ihnen angelegten Datei eintragen. Auch die Größe des `<iframe>` können Sie an Ihre Bedürfnisse anpassen - der Inhalt passt sich entsprechend an.
 
 Das Ergebnis kann dann z.B. wie folgt aussehen:
 
