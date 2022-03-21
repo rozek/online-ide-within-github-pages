@@ -8,7 +8,7 @@ Möchte man auf Basis der "Embedded-IDE" eigene Beispiele oder gar einen eigenen
 
 Die "offizielle" (und damit vermutlich dauerhaft unterstützte) Abhilfe ist der Umstieg auf [GitHub Pages](https://pages.github.com/). Zwar werden derartige Seiten ebenfalls aus Markdown-Dateien gespeist, allerdings findet zunächst eine Konvertierung nach HTML statt, die u.a. auch `<iframe>`-Elemente zulässt - und genau auf solche `<iframe>`-Elemente stützt sich das hier vorgestellte Verfahren.
 
-> Nota bene: dieser Beitrag befindet sich gerade in Arbeit und wird vermutlich nicht vor Ende März 2022 fertig sein
+> Noch ein kleiner Hinweis: falls Sie diesen Beitrag mögen und selbst einsetzen, überlegen Sie doch, ob Sie ihn mit einem "Stern" versehen wollen (Sie finden die entsprechende Schaltfläche rechts oben auf der Seite mit dem [GitHub Repository](https://github.com/rozek/javascript-interface-library) - nicht auf der zugehörigen "GitHub Page"). Auf diese Weise kann ich erkennen, welche meiner Beiträge am häufigsten zum Einsatz kommt und dementsprechend mit höherer Priorität gepflegt werden sollte.
 
 ## Beispiel ##
   
