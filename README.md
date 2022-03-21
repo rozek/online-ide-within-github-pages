@@ -26,7 +26,13 @@ vorfinden - in diesem Fall wechseln Sie bitte auf die [zugehörige GitHub Page](
   
 ## Integration in eigene Repositories ##
 
+Eine "Embedded-IDE" kann von vorneherein mit einer oder mehreren Java-Dateien ausgestattet werden - zum Beispiel, um ein (nahezu) fertiges Beispiel zu präsentieren und den Benutzer von unnötger Tipparbeit zu entlasten. Es sind aber auch leere IDEs zulässig
+
 ### IDE mit leerem Workspace ###
+
+"Leere" IDEs eignen sich besonders gut als "Spielwiese" für eigene Experimente oder um auf die Schnelle eine Idee auszuprobieren - ähnlich den REPLs in anderen Programmiersprachen.
+
+Und so bauen Sie eine leere IDE in Ihre GitHub Page ein:
 
 * `empty-Workspace.html` aus diesem Repo in das eigenen Repository kopieren (und ggfs. umbenennen
 * ggfs. Größe in `empty-Workspace.html` anpassen
