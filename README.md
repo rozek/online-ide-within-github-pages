@@ -61,7 +61,7 @@ Wie zuvor schon erwähnt, kann eine "embedded IDE" jedoch auch mit bereits vorge
 
 Das Ergebnis kann dann z.B. wie folgt aussehen:
 
-<iframe src="predefined_Workspace.html" style="width:620px; height:480px; overflow:hidden"></iframe>
+<iframe src="predefined_Workspace.html" style="width:600px; height:400px; overflow:hidden"></iframe>
 
 Wie üblich gilt auch hier: Sie müssen sich auf der [GitHub Page](https://rozek.github.io/online-ide-within-github-pages/) zu diesem Repo befinden, um die IDE tatsächlich sehen zu können.
 
