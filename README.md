@@ -26,7 +26,9 @@ vorfinden - in diesem Fall wechseln Sie bitte auf die [zugehörige GitHub Page](
   
 ## Integration in eigene Repositories ##
 
-Eine "Embedded-IDE" kann von vorneherein mit einer oder mehreren Java-Dateien ausgestattet werden - zum Beispiel, um ein (nahezu) fertiges Beispiel zu präsentieren und den Benutzer von unnötger Tipparbeit zu entlasten. Es sind aber auch leere IDEs zulässig
+Eine "Embedded-IDE" kann von vorneherein mit einer oder mehreren Java-Dateien ausgestattet werden - zum Beispiel, um ein (nahezu) fertiges Beispiel zu präsentieren und den Benutzer von unnötger Tipparbeit zu entlasten. Es sind aber auch leere IDEs zulässig.
+
+> Nota bene: bitte beachten Sie, daß Änderungen an Dateien im GitHub Repository erst nach einigen Minuten auf der zugehörigen GitHub Page erscheinen!
 
 ### IDE mit leerem Workspace ###
 
