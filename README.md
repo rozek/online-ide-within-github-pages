@@ -14,12 +14,12 @@ Die "offizielle" (und damit vermutlich dauerhaft unterstützte) Abhilfe ist der 
   
 Hier können Sie sehen, wie das Ergebnis am Ende aussieht:
   
-<iframe src="Template.html" style="width:620px; height:480px; overflow:hidden"></iframe>
+<iframe src="empty_Workspace.html" style="width:620px; height:480px; overflow:hidden"></iframe>
 
 Sollten Sie sich gerade die README-Datei in desem Repository ansehen, werden Sie nur einen Text der Form
   
 ```
-<iframe src="Template.html" style="width:620px; height:480px; overflow:hidden"></iframe>
+<iframe src="empty_Workspace.html" style="width:620px; height:480px; overflow:hidden"></iframe>
 ```
   
 vorfinden - in diesem Fall wechseln Sie bitte auf die [zugehörige GitHub Page](https://rozek.github.io/online-ide-within-github-pages/), dort werden Sie die tatsächliche "Embedded-IDE" sehen und auch mit ihr arbeiten können.
@@ -34,11 +34,18 @@ Eine "Embedded-IDE" kann von vorneherein mit einer oder mehreren Java-Dateien au
 
 Und so bauen Sie eine leere IDE in Ihre GitHub Page ein:
 
-* `empty-Workspace.html` aus diesem Repo in das eigenen Repository kopieren (und ggfs. umbenennen
-* ggfs. Größe in `empty-Workspace.html` anpassen
-* folgende Zeile in Markdown-Datei einfügen<br>`<iframe src="empty-Workspace.html" style="width:620px; height:480px; overflow:hidden"></iframe>`
+1. kopieren Sie die Datei [empty_Workspace](empty_Workspace.html) aus diesem Repository z.B. in das Hauptverzeichnis Ihres eigenen Repo - den Dateinamen können Sie dabei nach Belieben ändern
+2. mit einem Texteditor (oder der Online-Oberfläche von GitHub) sollten Sie außerdem folgende Details anpassen:
+    * die `id` im Attribut `data-java-online` sollte auf einen Wert gesetzt werden, der ggfs. sogar dateiübergreifend (nämlich Ihre gesamte GitHub-"Domäne") eineindeutig ist, damit evtl. im Browser gespeicherte Quelltexte nicht mit denen auf anderen GitHub Pages kollidieren
+    * zusätzlich können Sie das Aussehen der "embedded IDE" durch weitere Eintragungen im Attribut `data-java-online` an Ihre Bedürfnisse anpassen (eine [Anleitung](https://github.com/martin-pabst/Online-IDE#das-attribut-data-java-online) dafür finden Sie im GitHub Repository der Online-IDE selbst)
+    * zu guter Letzt können Sie im `<style>`-Element der Datei noch die Größe der IDE anpassen. Mit weiteren Änderungen des Aussehens sollte man vorsichtig sein, weil die Stileinstellungen der IDE von einem sehr dunklen Hintergrund ausgehen
+3. die derart konfigurierte "embedded IDE" kann nun mithilfe der folgenden Direktive in die GitHub Page aufgenommen werden:<br>`<iframe src="empty_Workspace.html" style="width:620px; height:480px; overflow:hidden"></iframe>`<br>Die in Schritt 2 vorgenommenen Änderungen müssen ggfs. auch in diese Direktive eingepflegt werden:
+    * statt des Dateinamens `empty_Workspace.html` sollten Sie den relativen Pfadnamen Ihrer eigenen HTML-Datei eintragen
+    * die von Ihnen gewählte Größe für die IDE sollte sich auch in den Ausmaßen des `<iframe>`-Elementes widerspiegeln: tragen Sie aber nicht die tatsächlichen Größen der IDE ein sondern eine etwas größere Breite (z.B. 20px größer, für den vertikalen Rollbalken) und ggfs. eine etwas größere Höhe (z.B. mindestens 80px größer, um Platz für Ausgaben und Tips zu schaffen)
 
-ggfs. Größenangaben darin anpassen
+Das Ergebnis kann dann z.B. wie folgt aussehen:
+
+<iframe src="empty_Workspace.html" style="width:620px; height:480px; overflow:hidden"></iframe>
 
 ### IDE mit vorgefertigtem Beispiel ###
 
