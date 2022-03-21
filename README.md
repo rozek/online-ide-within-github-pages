@@ -24,7 +24,7 @@ Sollten Sie sich gerade die README-Datei in desem Repository ansehen, werden Sie
   
 vorfinden - in diesem Fall wechseln Sie bitte auf die [zugehörige GitHub Page](https://rozek.github.io/online-ide-within-github-pages/), dort werden Sie die tatsächliche "Embedded-IDE" sehen und auch mit ihr arbeiten können.
   
-## Integration in eigene Repositories ##
+## Integration in eigene GitHub Pages ##
 
 Eine "Embedded-IDE" kann von vorneherein mit einer oder mehreren Java-Dateien ausgestattet werden - zum Beispiel, um ein (nahezu) fertiges Beispiel zu präsentieren und den Benutzer von unnötger Tipparbeit zu entlasten. Es sind aber auch leere IDEs zulässig.
 
