@@ -49,10 +49,19 @@ Das Ergebnis kann dann z.B. wie folgt aussehen:
 
 <iframe src="empty_Workspace.html" style="width:620px; height:480px; overflow:hidden"></iframe>
 
+Auch hier gilt wieder: Sie müssen sich auf der [GitHub Page](https://rozek.github.io/online-ide-within-github-pages/) zu diesem Repo befinden, um die IDE wirklich sehen zu können.
+
 ### IDE mit vorgefertigtem Beispiel ###
 
 1 `predefined-workspace.html` kopieren
 
+
+
+Das Ergebnis kann dann z.B. wie folgt aussehen:
+
+<iframe src="predefined_Workspace.html" style="width:620px; height:480px; overflow:hidden"></iframe>
+
+Wie üblich gilt auch hier: Sie müssen sich auf der [GitHub Page](https://rozek.github.io/online-ide-within-github-pages/) zu diesem Repo befinden, um die IDE tatsächlich sehen zu können.
 
 ## Lizenz ##
 
