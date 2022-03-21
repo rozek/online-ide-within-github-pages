@@ -14,12 +14,12 @@ Die "offizielle" (und damit vermutlich dauerhaft unterstützte) Abhilfe ist der 
   
 Hier können Sie sehen, wie das Ergebnis am Ende aussieht:
   
-<iframe src="Hello_World.html" style="width:620px; height:480px; overflow:hidden"></iframe>
+<iframe src="Hello_World.html" style="width:600px; height:400px; overflow:hidden"></iframe>
 
 Sollten Sie sich gerade die README-Datei in desem Repository ansehen, werden Sie nur einen Text der Form
   
 ```
-<iframe src="Hello_World.html" style="width:620px; height:480px; overflow:hidden"></iframe>
+<iframe src="Hello_World.html" style="width:600px; height:400px; overflow:hidden"></iframe>
 ```
   
 vorfinden - in diesem Fall wechseln Sie bitte auf die [zugehörige GitHub Page](https://rozek.github.io/online-ide-within-github-pages/), dort werden Sie die tatsächliche "Embedded-IDE" sehen und auch mit ihr arbeiten können.
@@ -47,7 +47,7 @@ Und so bauen Sie eine leere IDE in Ihre GitHub Page ein:
 
 Das Ergebnis kann dann z.B. wie folgt aussehen:
 
-<iframe src="empty_Workspace.html" style="width:620px; height:480px; overflow:hidden"></iframe>
+<iframe src="empty_Workspace.html" style="width:600px; height:400px; overflow:hidden"></iframe>
 
 Auch hier gilt wieder: Sie müssen sich auf der [GitHub Page](https://rozek.github.io/online-ide-within-github-pages/) zu diesem Repo befinden, um die IDE wirklich sehen zu können.
 
