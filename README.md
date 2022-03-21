@@ -54,6 +54,6 @@ Das Ergebnis kann dann z.B. wie folgt aussehen:
 1 `predefined-workspace.html` kopieren
 
 
-## License ##
+## Lizenz ##
 
-[MIT License](LICENSE.md)
+Dieser Beitrag steht unter [MIT Lizenz](LICENSE.md)
