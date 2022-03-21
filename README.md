@@ -51,9 +51,11 @@ Das Ergebnis kann dann z.B. wie folgt aussehen:
 
 Auch hier gilt wieder: Sie müssen sich auf der [GitHub Page](https://rozek.github.io/online-ide-within-github-pages/) zu diesem Repo befinden, um die IDE wirklich sehen zu können.
 
-### IDE mit vorgefertigtem Beispiel ###
+### IDE mit vorgefertigten Dateien ###
 
-1 `predefined-workspace.html` kopieren
+Wie zuvor schon erwähnt, kann eine "embedded IDE" jedoch auch mit bereits vorgefertigten Dateien ausgestattet werden, damit Benutzer nicht immer bei Null anfangen müssen. Der [predefined_Workspace](predefined_Workspace.html) ist ein Beispiel dafür und kann wie folgt in eine GitHub Page integriert werden:
+
+1 `predefined_Workspace.html` kopieren
 
 
 
