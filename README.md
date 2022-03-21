@@ -55,6 +55,8 @@ Wie zuvor schon erwähnt, kann eine "embedded IDE" jedoch auch mit bereits vorge
 1 `predefined_Workspace.html` kopieren
 
 
+[Anleitung zur Online-IDE](https://github.com/rozek/Online-IDE#beispiel-mit-dateiliste-console-fehlerliste-und-tipp)
+
 
 Das Ergebnis kann dann z.B. wie folgt aussehen:
 
