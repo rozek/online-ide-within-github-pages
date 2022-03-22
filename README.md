@@ -6,7 +6,7 @@ Eine etwas abgespeckte Variante der Online-IDE kann als [Embedded-IDE](https://g
 
 Möchte man auf Basis der "Embedded-IDE" eigene Beispiele oder gar einen eigenen Kurs auf GitHub veröffentlichen, stößt man jedoch bald auf ein grundsätzliches Problem: eine Reihe von HTML-Tags (wie z.B. `<script>` oder `<iframe>`) werden in Markdown-Dateien (wie z.B. README.md) nicht unterstützt und stattdessen wie normaler Text behandelt.
 
-Die "offizielle" (und damit vermutlich dauerhaft unterstützte) Abhilfe ist der Umstieg auf [GitHub Pages](https://pages.github.com/). Zwar werden derartige Seiten ebenfalls aus Markdown-Dateien gespeist, allerdings findet zunächst eine Konvertierung nach HTML statt, die u.a. auch `<iframe>`-Elemente zulässt - und genau auf solche `<iframe>`-Elemente stützt sich das hier vorgestellte Verfahren.
+Die "offizielle" (und damit vermutlich dauerhaft verfügbare) Abhilfe ist der Umstieg auf [GitHub Pages](https://pages.github.com/). Zwar werden derartige Seiten ebenfalls aus Markdown-Dateien gespeist, allerdings findet zunächst eine Konvertierung nach HTML statt, die u.a. auch `<iframe>`-Elemente zulässt - und genau auf solche `<iframe>`-Elemente stützt sich das hier vorgestellte Verfahren.
 
 > Noch ein kleiner Hinweis: falls Sie diesen Beitrag mögen und selbst einsetzen, überlegen Sie doch, ob Sie ihn mit einem "Stern" versehen wollen (Sie finden die entsprechende Schaltfläche rechts oben auf der Seite mit dem [GitHub Repository](https://github.com/rozek/javascript-interface-library) - allerdings nicht auf der zugehörigen "GitHub Page"). Auf diese Weise kann ich erkennen, welche meiner Beiträge am häufigsten zum Einsatz kommen und dementsprechend mit höherer Priorität gepflegt werden sollten.
 
